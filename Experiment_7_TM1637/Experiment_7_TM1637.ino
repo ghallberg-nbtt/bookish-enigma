@@ -113,7 +113,7 @@ void loop() {
   display.showNumberDec(-999);       // Expect: -999
   delay(2000);
   /*Sequence 4
-    This sequence displays hexidecimal numbers
+    This sequence displays hexadecimal numbers
   */
   Serial.println ("Sequence 4");
   display.showNumberHexEx(0xf1af);        // Expect: f1Af
