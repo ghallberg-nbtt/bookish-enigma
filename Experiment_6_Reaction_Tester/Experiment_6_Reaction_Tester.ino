@@ -66,7 +66,7 @@ void loop() {
   tooSoon = false; //reset flag
   turnOffDisplay ();
   digitalWrite (REACTION_LED, HIGH); //Turn on reaction LED
-  ledOffTimer = random (2000, 4000); //set timer random 2 to 4 seconds
+  ledOffTimer = random (2000, 4001); //set timer random 2 to 4 seconds
   Serial.print ("led off timer: ");
   Serial.println(ledOffTimer);
   delay (ledOffTimer); //Wait for that period
