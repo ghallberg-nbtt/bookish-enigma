@@ -44,7 +44,7 @@ void loop() {
   }
   buttonState = HIGH; //reset buton state
   //generate randon number
-  number = random(1, 6); //random number between 1 and 6
+  number = random(1, 7); //random number between 1 and 6
   Serial.println (number); //print number to serial monitor
   if (number == 1) {
     //write 1
